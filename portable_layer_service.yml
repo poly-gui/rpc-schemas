@@ -1,0 +1,2 @@
+service PortableLayer:
+  fn invoke_callback(handle uint32, args message): message
