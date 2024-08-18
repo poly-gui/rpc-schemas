@@ -3,4 +3,4 @@ service NativeLayer:
 
   fn create_widget(widget Widget, windowTag string):
 
-  fn update_widget(tag uint32, widget Widget, args message):
+  fn update_widget(tag uint32, widget Widget, args message?):
