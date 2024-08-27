@@ -3,3 +3,4 @@ Slider::Widget:
   minValue: double
   maxValue: double
   onValueChanged: uint32
+  width: double
