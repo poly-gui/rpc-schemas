@@ -9,6 +9,6 @@ service NativeLayer:
 
   fn remove_widget(tag uint32):
 
-  fn insert_widget_at_index(tag uint32, index uint32, parent_tag uint32):
+  fn insert_widget_at_index(tag uint32, index uint32, parentTag uint32):
 
   fn clear_window(windowTag string):
