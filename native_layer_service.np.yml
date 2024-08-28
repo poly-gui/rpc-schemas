@@ -7,4 +7,6 @@ service NativeLayer:
 
   fn update_widgets(tag uint32[], widgets Widget[], args message?):
 
+  fn remove_widget(tag uint32):
+
   fn clear_window(windowTag string):
