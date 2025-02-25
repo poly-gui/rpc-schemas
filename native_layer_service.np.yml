@@ -14,3 +14,7 @@ service NativeLayer:
   fn insert_widget_before(widget Widget, beforeWidget Widget, parentTag uint32):
 
   fn clear_window(windowTag string):
+
+  fn show_attached_dialog(title string, message string, windowTag string):
+
+  fn show_dialog(title string, message string):
